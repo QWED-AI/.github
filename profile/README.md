@@ -31,6 +31,7 @@
 | Repository | Description |
 |------------|-------------|
 | [**qwed-verification**](https://github.com/QWED-AI/qwed-verification) | 🧠 Core verification engine (11 specialized engines) |
+| [**qwed-finance**](https://github.com/QWED-AI/qwed-finance) | 🏦 Banking & fintech verification middleware |
 | [**qwed-mcp**](https://github.com/QWED-AI/qwed-mcp) | 🔌 Model Context Protocol for Claude Desktop |
 | [**qwed-ucp**](https://github.com/QWED-AI/qwed-ucp) | 🛒 Unified Commerce Protocol for e-commerce AI |
 | [**qwed-open-responses**](https://github.com/QWED-AI/qwed-open-responses) | 🤖 OpenAI Responses API guards |
