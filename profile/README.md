@@ -35,7 +35,6 @@
 | [**qwed-mcp**](https://github.com/QWED-AI/qwed-mcp) | 🔌 Model Context Protocol for Claude Desktop |
 | [**qwed-ucp**](https://github.com/QWED-AI/qwed-ucp) | 🛒 Unified Commerce Protocol for e-commerce AI |
 | [**qwed-open-responses**](https://github.com/QWED-AI/qwed-open-responses) | 🤖 OpenAI Responses API guards |
-| [**qwed-enterprise**](https://github.com/QWED-AI/qwed-enterprise) | 🏢 Enterprise docs & deployment |
 
 ---
 
@@ -60,12 +59,36 @@
 
 ---
 
+## 📖 Learning
+
+| Resource | Description |
+|----------|-------------|
+| [**qwed-learning**](https://github.com/QWED-AI/qwed-learning) | 🎓 Interactive course: "Building Deterministic AI Systems" |
+
+Free, open-source curriculum covering LLM verification, symbolic AI, and safe AI deployment.
+
+---
+
 ## 📚 Research
 
 | Paper | DOI |
 |-------|-----|
 | **QWED Protocol: Deterministic Verification for LLMs** | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18110785.svg)](https://doi.org/10.5281/zenodo.18110785) |
 | **The Layered Compression Paradox in Context Engineering** | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18256295.svg)](https://doi.org/10.5281/zenodo.18256295) |
+
+---
+
+## 🏢 Enterprise
+
+For enterprise deployments, custom integrations, SLA support, and on-premise solutions:
+
+📧 **Contact:** [rahul@qwedai.com](mailto:rahul@qwedai.com)
+
+We offer:
+- 🔧 Custom guard development
+- 🏗️ On-premise deployment
+- 📞 Priority support & SLA
+- 🔐 Security audits & compliance
 
 ---
 
