@@ -8,7 +8,7 @@
 
 **The Verification Infrastructure for AI**
 
-[![Website](https://img.shields.io/badge/Website-qwed.ai-00C7B7?style=for-the-badge)](https://qwed.ai)
+[![GitHub Developer Program](https://img.shields.io/badge/GitHub_Developer_Program-Member-4183C4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/developer-program)
 [![Docs](https://img.shields.io/badge/Docs-docs.qwedai.com-blue?style=for-the-badge)](https://docs.qwedai.com)
 [![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.18111675-blue?style=for-the-badge)](https://doi.org/10.5281/zenodo.18111675)
 
