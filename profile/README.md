@@ -33,6 +33,7 @@
 | [**qwed-verification**](https://github.com/QWED-AI/qwed-verification) | 🧠 Core verification engine (11 specialized engines) |
 | [**qwed-finance**](https://github.com/QWED-AI/qwed-finance) | 🏦 Banking & fintech verification middleware |
 | [**qwed-legal**](https://github.com/QWED-AI/qwed-legal) | ⚖️ Legal contract & liability verification middleware |
+| [**qwed-tax**](https://github.com/QWED-AI/qwed-tax) | 💸 Tax compliance & withholding verification middleware |
 | [**qwed-infra**](https://github.com/QWED-AI/qwed-infra) | ☁️ Infrastructure as Code (IaC) verification |
 | [**qwed-mcp**](https://github.com/QWED-AI/qwed-mcp) | 🔌 Model Context Protocol for Claude Desktop |
 | [**qwed-ucp**](https://github.com/QWED-AI/qwed-ucp) | 🛒 Unified Commerce Protocol for e-commerce AI |
