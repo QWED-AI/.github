@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/QWED-AI/qwed-verification/main/assets/logo.svg" alt="QWED Logo" width="120" height="120">
+<img src="logo.png" alt="QWED Logo" width="120" height="120">
 
 # QWED
 
