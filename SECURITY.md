@@ -1,34 +1,35 @@
 # Security Policy
 
+This is the default policy for QWED-AI repositories. A repository with its own `SECURITY.md`, such as [qwed-verification](https://github.com/QWED-AI/qwed-verification/blob/main/SECURITY.md), takes precedence.
+
 ## Supported Versions
 
-We support security updates for the latest major version of all QWED packages.
-
-| Project | Supported Version |
-| :--- | :--- |
-| **qwed-verification** | ✅ Latest v2.x |
-| **qwed-finance** | ✅ Latest v1.x |
-| **qwed-legal** | ✅ Latest v0.x |
-| **qwed-ucp** | ✅ Latest v1.x |
-| **qwed-mcp** | ✅ Latest v1.x |
+Security fixes are released for the latest release of each QWED package only. Package versions are listed at [qwedai.tech/ecosystem](https://qwedai.tech/ecosystem).
 
 ## Reporting a Vulnerability
 
-**Do NOT report security vulnerabilities via public GitHub issues.**
+**Do not report security vulnerabilities through public GitHub issues, pull requests or discussions.**
 
-If you discover a security vulnerability in any QWED project:
+Report them privately, in either of these ways:
 
-1.  **Email:** Send details to [security@qwedai.com](mailto:security@qwedai.com).
-2.  **Encryption:** You may use our PGP key (ID: `0xQWEDSEC`) if needed.
-3.  **Response:** We will acknowledge your report within 48 hours.
-4.  **Bounty:** We offer bug bounties for critical vulnerabilities on a case-by-case basis.
+1. **GitHub:** open a private report from the affected repository's Security tab ("Report a vulnerability"), for example [qwed-verification](https://github.com/QWED-AI/qwed-verification/security/advisories/new).
+2. **Email:** write to [rahul@qwedai.tech](mailto:rahul@qwedai.tech).
 
-### Critical Vulnerabilities Include:
-- Incorrect verification (False Negatives where a guard says "Safe" but it is not)
-- Sandbox escapes in code execution guards
-- PII leakage in logging
+Please include the steps to reproduce, the affected package and version, and the impact you expect.
+
+We aim to acknowledge a report within **3 business days**. QWED has a single maintainer, so a response may occasionally take longer. We will keep you informed while we investigate, coordinate disclosure timing with you, and credit you in the advisory unless you ask us not to.
+
+### Issues we treat as vulnerabilities include
+
+- Incorrect verification: an engine returns `VERIFIED` for a claim that is false or unsafe (a false accept)
+- Fail-open behaviour, where an error or unsupported input lets a claim through
+- Code execution, injection or sandbox escapes in engines and guards
+- Leaks of personal or secret data in logs or records
+
+Published advisories are listed on each repository's Security tab and at [qwedai.tech/security](https://qwedai.tech/security).
 
 ## Security Best Practices for Users
 
-- **Local Execution:** QWED is designed to run locally. Avoid exposing guard endpoints directly to the public internet without authentication.
-- **Input Sanitization:** While QWED verifies outputs, always sanitize inputs to your notification systems.
+- **Local execution:** QWED is designed to run in your own environment. Do not expose verification endpoints to the public internet without authentication.
+- **Enforcement:** QWED decides; your integration enforces the decision. Check that a denied result actually stops the action in your system.
+- **Input sanitisation:** QWED verifies outputs. Still sanitise inputs to your notification and downstream systems.
