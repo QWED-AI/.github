@@ -81,10 +81,9 @@ QWED verifies the formal statement, not what the AI meant, and it is only as sou
 
 | Paper | DOI |
 |---|---|
-| **QWED Protocol: Deterministic Verification for Large Language Models** (v1.1.0, January 2026) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18110785.svg)](https://doi.org/10.5281/zenodo.18110785) |
 | **The Layered Compression Paradox in Context Engineering** | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18256295.svg)](https://doi.org/10.5281/zenodo.18256295) |
 
-The QWED Protocol paper's benchmark figures and its claims about other projects were withdrawn in October 2026; see the [errata](https://github.com/QWED-AI/qwed-verification/blob/main/docs/WHITEPAPER.md). Current results are on [qwedai.tech/evidence](https://qwedai.tech/evidence).
+QWED's current evaluation results are on [qwedai.tech/evidence](https://qwedai.tech/evidence).
 
 ---
 
